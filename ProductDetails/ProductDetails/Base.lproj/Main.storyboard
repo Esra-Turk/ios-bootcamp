@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="32700.99.1234" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="PuO-6M-WlU">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22685"/>
+        <capability name="Image references" minToolsVersion="12.0"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="ProductDetails" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Oversize Leather Effect  Jacket With Embroidery" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5PK-Cz-Sr6">
+                                <rect key="frame" x="30" y="408" width="173" height="82.666666666666686"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="23"/>
+                                <color key="textColor" name="YaziRenk1"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Price" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="a3H-Ak-8NO">
+                                <rect key="frame" x="322.33333333333331" y="424" width="37.666666666666686" height="19"/>
+                                <fontDescription key="fontDescription" name="Palatino-Roman" family="Palatino" pointSize="17"/>
+                                <color key="textColor" name="YaziRenk2"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="$22.50" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oH8-tu-SQg">
+                                <rect key="frame" x="308.66666666666669" y="462" width="54.333333333333314" height="20.333333333333314"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <stackView opaque="NO" contentMode="scaleToFill" spacing="30" translatesAutoresizingMaskIntoConstraints="NO" id="zXR-mn-u1l">
+                                <rect key="frame" x="30" y="551" width="333" height="34.333333333333371"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gYO-vO-cCq" colorLabel="IBBuiltInLabel-Gray">
+                                        <rect key="frame" x="0.0" y="0.0" width="91" height="34.333333333333336"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="filled" title="XS" buttonSize="medium" titleAlignment="automatic">
+                                            <color key="baseForegroundColor" name="YaziRenk2"/>
+                                            <color key="baseBackgroundColor" name="AnaRenk"/>
+                                        </buttonConfiguration>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="string" keyPath="layer.cornerRadius" value="15"/>
+                                            <userDefinedRuntimeAttribute type="string" keyPath="layer.borderWidth" value="1.0"/>
+                                            <userDefinedRuntimeAttribute type="color" keyPath="layer.borderColor ">
+                                                <color key="value" name="YaziRenk2"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="249" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ryN-Ez-P6J">
+                                        <rect key="frame" x="121" y="0.0" width="91" height="34.333333333333336"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="filled" title="S">
+                                            <color key="baseForegroundColor" name="YaziRenk2"/>
+                                            <color key="baseBackgroundColor" name="AnaRenk"/>
+                                        </buttonConfiguration>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="string" keyPath="layer.cornerRadius" value="15"/>
+                                            <userDefinedRuntimeAttribute type="string" keyPath="layer.borderWidth" value="1.0"/>
+                                        </userDefinedRuntimeAttributes>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4ZH-1l-QP3">
+                                        <rect key="frame" x="242" y="0.0" width="91" height="34.333333333333336"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="filled" title="M">
+                                            <color key="baseForegroundColor" name="YaziRenk2"/>
+                                            <color key="baseBackgroundColor" name="AnaRenk"/>
+                                        </buttonConfiguration>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="string" keyPath="layer.cornerRadius" value="15"/>
+                                            <userDefinedRuntimeAttribute type="string" keyPath="layer.borderWidth" value="1.0"/>
+                                        </userDefinedRuntimeAttributes>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                            <stackView opaque="NO" contentMode="scaleToFill" spacing="30" translatesAutoresizingMaskIntoConstraints="NO" id="Cfo-Ut-0j8">
+                                <rect key="frame" x="30" y="605.33333333333337" width="333" height="34.333333333333371"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="249" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eDA-v9-YPE">
+                                        <rect key="frame" x="0.0" y="0.0" width="91" height="34.333333333333336"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="filled" title="L">
+                                            <color key="baseForegroundColor" name="YaziRenk2"/>
+                                            <color key="baseBackgroundColor" name="AnaRenk"/>
+                                        </buttonConfiguration>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="string" keyPath="layer.cornerRadius" value="15"/>
+                                            <userDefinedRuntimeAttribute type="string" keyPath="layer.borderWidth" value="1.0"/>
+                                        </userDefinedRuntimeAttributes>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="249" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="m2Q-vS-XKU">
+                                        <rect key="frame" x="121" y="0.0" width="91" height="34.333333333333336"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="filled" title="XL">
+                                            <color key="baseForegroundColor" name="YaziRenk2"/>
+                                            <color key="baseBackgroundColor" name="AnaRenk"/>
+                                        </buttonConfiguration>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="string" keyPath="layer.cornerRadius" value="15"/>
+                                            <userDefinedRuntimeAttribute type="string" keyPath="layer.borderWidth" value="1.0"/>
+                                        </userDefinedRuntimeAttributes>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zZn-f4-qnz">
+                                        <rect key="frame" x="242" y="0.0" width="91" height="34.333333333333336"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="filled" title="XXL">
+                                            <color key="baseForegroundColor" name="YaziRenk2"/>
+                                            <color key="baseBackgroundColor" name="AnaRenk"/>
+                                        </buttonConfiguration>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="string" keyPath="layer.cornerRadius" value="15"/>
+                                            <userDefinedRuntimeAttribute type="string" keyPath="layer.borderWidth" value="1.0"/>
+                                        </userDefinedRuntimeAttributes>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Image1" translatesAutoresizingMaskIntoConstraints="NO" id="Pwf-O8-S9W">
+                                <rect key="frame" x="90" y="119" width="213" height="273"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="273" id="RUp-K2-gvl"/>
+                                    <constraint firstAttribute="width" constant="213" id="jn4-p6-FPV"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="layer.cornerRadius" value="2"/>
+                                </userDefinedRuntimeAttributes>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Size" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jdQ-Ky-1Zi">
+                                <rect key="frame" x="29.999999999999996" y="506.66666666666669" width="39.666666666666657" height="24.333333333333314"/>
+                                <fontDescription key="fontDescription" name="Palatino-Roman" family="Palatino" pointSize="22"/>
+                                <color key="textColor" name="YaziRenk2"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Description" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aeY-VZ-2is">
+                                <rect key="frame" x="29.999999999999993" y="655.66666666666663" width="108.33333333333331" height="23.333333333333371"/>
+                                <fontDescription key="fontDescription" name="Palatino-Roman" family="Palatino" pointSize="21"/>
+                                <color key="textColor" name="YaziRenk2"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="This oversized leather-effect jacket with embroidery is a stylish and comfortable choice for any occasion." textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1V6-tp-uzR">
+                                <rect key="frame" x="30" y="695" width="333" height="49.666666666666629"/>
+                                <fontDescription key="fontDescription" name="Palatino-Roman" family="Palatino" pointSize="15"/>
+                                <color key="textColor" name="YaziRenk2"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="26w-UG-REK">
+                                <rect key="frame" x="40" y="760.66666666666663" width="323" height="47.333333333333371"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="ADD TO CART">
+                                    <color key="baseForegroundColor" name="YaziRenk3"/>
+                                    <color key="baseBackgroundColor" name="YaziRenk1"/>
+                                </buttonConfiguration>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="layer.cornerRadius" value="15"/>
+                                </userDefinedRuntimeAttributes>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="Pwf-O8-S9W" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="16" id="3A9-aO-RDq"/>
+                            <constraint firstItem="Pwf-O8-S9W" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="90" id="3Nj-GA-3Dc"/>
+                            <constraint firstItem="oH8-tu-SQg" firstAttribute="top" secondItem="a3H-Ak-8NO" secondAttribute="bottom" constant="19" id="4ht-HB-cxW"/>
+                            <constraint firstAttribute="trailing" secondItem="5PK-Cz-Sr6" secondAttribute="trailing" constant="190" id="53n-J6-p6p"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="26w-UG-REK" secondAttribute="bottom" constant="10" id="5h9-Ki-FOg"/>
+                            <constraint firstItem="Cfo-Ut-0j8" firstAttribute="leading" secondItem="jdQ-Ky-1Zi" secondAttribute="leading" id="6Xl-5f-8vB"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="jdQ-Ky-1Zi" secondAttribute="trailing" id="8Mu-rS-4PM"/>
+                            <constraint firstItem="zXR-mn-u1l" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="9uf-GJ-zmk"/>
+                            <constraint firstItem="26w-UG-REK" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="40" id="GDi-KP-Zdx"/>
+                            <constraint firstItem="jdQ-Ky-1Zi" firstAttribute="top" secondItem="5PK-Cz-Sr6" secondAttribute="bottom" constant="16" id="H70-KF-dXd"/>
+                            <constraint firstItem="aeY-VZ-2is" firstAttribute="top" secondItem="Cfo-Ut-0j8" secondAttribute="bottom" constant="16" id="NlY-eV-AFb"/>
+                            <constraint firstItem="1V6-tp-uzR" firstAttribute="top" secondItem="aeY-VZ-2is" secondAttribute="bottom" constant="16" id="OMx-5d-3L3"/>
+                            <constraint firstItem="5PK-Cz-Sr6" firstAttribute="top" secondItem="Pwf-O8-S9W" secondAttribute="bottom" constant="16" id="RBb-re-MB0"/>
+                            <constraint firstItem="Cfo-Ut-0j8" firstAttribute="top" secondItem="zXR-mn-u1l" secondAttribute="bottom" constant="20" id="YcX-gR-tSC"/>
+                            <constraint firstItem="zXR-mn-u1l" firstAttribute="top" secondItem="jdQ-Ky-1Zi" secondAttribute="bottom" constant="20" id="YoA-LN-JiT"/>
+                            <constraint firstItem="Cfo-Ut-0j8" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="aV0-e8-iSs"/>
+                            <constraint firstItem="1V6-tp-uzR" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="30" id="aa5-7b-WB6"/>
+                            <constraint firstItem="aeY-VZ-2is" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="30" id="bnx-U9-dAq"/>
+                            <constraint firstAttribute="trailing" secondItem="1V6-tp-uzR" secondAttribute="trailing" constant="30" id="dhn-PU-zC7"/>
+                            <constraint firstItem="jdQ-Ky-1Zi" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="29.999999999999996" id="gUE-4Z-sV3"/>
+                            <constraint firstItem="26w-UG-REK" firstAttribute="top" secondItem="1V6-tp-uzR" secondAttribute="bottom" constant="16" id="hq4-ir-AH9"/>
+                            <constraint firstItem="zXR-mn-u1l" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="30" id="hw8-AD-8zg"/>
+                            <constraint firstItem="5PK-Cz-Sr6" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="30" id="jA0-Yn-tYk"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="a3H-Ak-8NO" secondAttribute="trailing" constant="33.000000000000057" id="k9o-oT-Fn3"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="zXR-mn-u1l" secondAttribute="trailing" constant="30" id="kJ6-CM-tTQ"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="oH8-tu-SQg" secondAttribute="bottom" constant="335.66666666666669" id="neO-uo-UFB"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="oH8-tu-SQg" secondAttribute="trailing" constant="29.999999999999943" id="oUq-2A-KoN"/>
+                            <constraint firstItem="oH8-tu-SQg" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="5PK-Cz-Sr6" secondAttribute="trailing" constant="8" symbolic="YES" id="pbo-ks-GhR"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="aeY-VZ-2is" secondAttribute="trailing" symbolic="YES" id="rts-sN-5JL"/>
+                            <constraint firstItem="a3H-Ak-8NO" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="5PK-Cz-Sr6" secondAttribute="trailing" constant="8" symbolic="YES" id="v0p-zY-rln"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="26w-UG-REK" secondAttribute="trailing" constant="30" id="w5F-6l-NBP"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="Vlb-W9-Ajr">
+                        <barButtonItem key="leftBarButtonItem" image="arrow.left" catalog="system" id="tan-qM-Ix4">
+                            <color key="tintColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        </barButtonItem>
+                        <rightBarButtonItems>
+                            <barButtonItem image="cart" catalog="system" id="4Lm-8T-tQh">
+                                <color key="tintColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </barButtonItem>
+                            <barButtonItem title="Item" id="CsZ-nY-6Ii">
+                                <imageReference key="image" image="heart" catalog="system" symbolScale="large" variableValue="0.80000000000000004"/>
+                                <color key="tintColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </barButtonItem>
+                        </rightBarButtonItems>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="labelJacket" destination="5PK-Cz-Sr6" id="HCD-bO-hUV"/>
+                        <outlet property="labelPrice" destination="oH8-tu-SQg" id="Zrm-XH-9gf"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="973.28244274809151" y="3.5211267605633805"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="ssI-lY-MeF">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="PuO-6M-WlU" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="qAh-S6-VQs">
+                        <rect key="frame" x="0.0" y="59" width="393" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="ihm-Zn-kWf"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkc-JR-wDr" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="46.564885496183201" y="3.5211267605633805"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Image1" width="213" height="273"/>
+        <image name="arrow.left" catalog="system" width="128" height="95"/>
+        <image name="cart" catalog="system" width="128" height="102"/>
+        <image name="heart" catalog="system" width="128" height="107"/>
+        <namedColor name="AnaRenk">
+            <color red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="YaziRenk1">
+            <color red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+        </namedColor>
+        <namedColor name="YaziRenk2">
+            <color red="0.70899999141693115" green="0.71700000762939453" blue="0.71700000762939453" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+        </namedColor>
+        <namedColor name="YaziRenk3">
+            <color red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
