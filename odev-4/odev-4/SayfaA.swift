@@ -1,8 +1,8 @@
 //
 //  SayfaA.swift
-//  odev4
+//  odev-4
 //
-//  Created by Esra Türk on 24.09.2024.
+//  Created by Esra Türk on 25.09.2024.
 //
 
 import UIKit
@@ -12,9 +12,9 @@ class SayfaA: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
+        // Do any additional setup after loading the view.
     }
     
-
     @IBAction func buttonB(_ sender: Any) {
         performSegue(withIdentifier: "sayfaB", sender: nil)
     }
